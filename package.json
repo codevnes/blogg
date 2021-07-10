@@ -1,0 +1,31 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codevnes/blogg.git"
+  },
+  "keywords": [
+    "blog",
+    "js",
+    "blogjs"
+  ],
+  "author": "danhtrong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codevnes/blogg/issues"
+  },
+  "homepage": "https://github.com/codevnes/blogg#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.11"
+  }
+}
